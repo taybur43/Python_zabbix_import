@@ -16,5 +16,5 @@ results=zapi.do_request('configuration.import',{"format":"xml","rules":{
 },
 "source":cont})
 results["result"]=='True' 
-print("successfully imported",results)
+print("successfully imported and here is the information of api results",results)
 
