@@ -70,11 +70,11 @@ fi
 }
 
 email_sending(){
-To=sagor.ece@gmail.com
-From=taybur.rahaman@bjitgroup.com
-Server=bd1.bjitgroup.com:25
+To=sagor.ece11@gmail.com
+From=taybur.1@test.com
+Server=bd1.tet.com:25
 Auth_user=taybur.rahaman
-Auth_pass=ECE@BJIT0943#
+Auth_pass=
 Subject="This from Zabbix Auto Export script"
 Attachment=/root/export/bk.zip
 Body="Congratulation,You successfully exported your desired file."
