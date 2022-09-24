@@ -159,7 +159,7 @@ echo "Main part is from here......Starting script...Please inser proper argument
 EnvName="test"
 ObjType="images"
 ObjName="#all#"
-EmailAddress="application.monitoring@valmet.com"
+EmailAddress="application.monitoring@test.com"
 ptype1="prod"
 ptype2="test"
 email_regex="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$"
