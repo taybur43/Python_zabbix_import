@@ -126,10 +126,8 @@ fi
 
 email_sending(){
 #To=sagor.ece@gmail.com
-From=zabbix-admin@valmet.com
-Server=smtp.valmet.com:25
-#Auth_user=taybur.rahaman
-#Auth_pass=ECE@BJIT0943#
+From=zabbix-admin@test.com
+Server=smtp.test.com:25
 if [ $1 -eq 1 ]; then 
    Subject="[ERROR]: This from Zabbix Auto Export script" 
    Body="Opps! we have encountered issue in: "$res" "
